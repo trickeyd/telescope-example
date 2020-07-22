@@ -9,12 +9,12 @@ Telescope can be downloaded [here](https://www.npmjs.com/package/@idiosync/teles
 - Clone the repo
 - In the terminal run "yarn"
 - Start the server with "yarn start"
-- view "App.js"
+- view "src/App.js"
 
 
 ## Info
 This is purely to illustrait some of the workings of the Telescope framework so much of the simple
 view logic going through the framework would actually be over engineering in a real project.
 
-Everything is found in the App.js file. This would also not be reconmended.
+Everything is found in the "src/App.js" file. This would also not be reconmended.
 
