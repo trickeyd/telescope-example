@@ -1,6 +1,6 @@
 # Telescope Example Project
 
-<h3>An example of @idiosync/telescope - by  <a href="https://www.npmjs.com/~idiosync"><img width="100px" height="31px" valign="middle" src="https://storage.googleapis.com/idiosync-web-images/telescope/idiosync_very_small.png"></a></h3>
+<h3>An example for @idiosync/telescope - by  <a href="https://www.npmjs.com/~idiosync"><img width="100px" height="31px" valign="middle" src="https://storage.googleapis.com/idiosync-web-images/telescope/idiosync_very_small.png"></a></h3>
  
 
 ## Installation
