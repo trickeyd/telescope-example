@@ -61,6 +61,8 @@ const alertUserOfTickbox = (data, app) => alert('you must click the magic tickbo
 const tickboxIsEnabled = (data, app) => app.model(models => models.DISPLAY).getProp('tickboxIsClicked');  
 
 // create a scope (a middleware with only one argument)
+// this is a way to combine and arrange middleware and other scopes
+// it also allows for if / elseif /else statments
 const closePopupIfTextboxIsEnabled = scope =>
   scope.if(tickboxIsEnabled)(
     setPopupVisible(false)
