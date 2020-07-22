@@ -1127,10 +1127,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@idiosync/telescope@^2.1.13":
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/@idiosync/telescope/-/telescope-2.1.13.tgz#599f861b8a2a23939066c4774c1573e45f13f34a"
-  integrity sha512-CLtQpzCM/Mncy19t4KoBuOCP1isww4gBM79dSzbp1IKzoH8hRt9jMKHB+x9SIZGlcYMbaO3GIhADHz89Pk4sfA==
+"@idiosync/telescope@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@idiosync/telescope/-/telescope-2.1.14.tgz#6cc3e70b0fb01aa07fbb540790e911d6a75f67c8"
+  integrity sha512-Z9OmdPcx3Fs8vwnvHLipbBikmuc06TA6loYs3vITcc1tWFdSL87BXxl+sYAifTJPAGIdb2E6dl7NhUiOW++WeA==
   dependencies:
     lodash.clonedeep "^4.5.0"
     lodash.get "^4.4.2"
