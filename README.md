@@ -7,6 +7,7 @@
 - Clone the repo
 - In the terminal run "yarn"
 - Start the server with "yarn start"
+- view "App.js"
 
 
 ## Info
