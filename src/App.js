@@ -63,7 +63,7 @@ const tickboxIsEnabled = (data, app) => app.model(models => models.DISPLAY).getP
 // create a scope (a middleware with only one argument)
 // this is a way to combine and arrange middleware and other scopes
 // it also allows for if / elseif /else statments
-const closePopupIfTextboxIsEnabled = scope =>
+const closePopupIfTextboxIsEnabledScope = scope =>
   scope.if(tickboxIsEnabled)(
     setPopupVisible(false)
   ).else(
@@ -82,7 +82,7 @@ telescope.on(signals => signals.OPEN_POPUP,
 );
 
 telescope.on(signals => signals.CLOSE_POPUP,
-  closePopupIfTextboxIsEnabled 
+  closePopupIfTextboxIsEnabledScope 
 );
 
 telescope.on(signals => signals.SET_TICKBOX,
@@ -119,7 +119,12 @@ const Main = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div style={{ display:'flex', flexDirection:"row", alignItems: 'center' }} >
+          <img src={logo} className="App-logo" alt="logo" />
+          <img style={{marginLeft: -80 }}  width={300} height={150} src="https://storage.googleapis.com/idiosync-web-images/telescope/telescope.png" /> 
+        </div>
+        <p>Don't forget to watch the console for Telescope debuging!</p>
+
         <ButtonAndText onClick={() => OPEN_POPUP()} clickToText="HELLO WORLD!" />
         {!!inputIsShowing && <InputPopup />}
       </header>
